@@ -1,0 +1,175 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header {
+  background: #f8f9fa;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contact-info a,
+.contact-info span {
+  color: #000;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  background: #343a40;
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.hero button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background: #0056b3;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.feature {
+  flex: 1;
+  padding: 20px;
+}
+
+.feature h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.services {
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.service {
+  display: inline-block;
+  margin: 10px;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+}
+
+.team {
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 200px;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.team-member h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  margin: 0;
+  color: #777;
+}
+
+footer {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content p,
+.footer-content a,
+.footer-content span {
+  margin: 5px 0;
+  color: #000;
+  text-decoration: none;
+}
